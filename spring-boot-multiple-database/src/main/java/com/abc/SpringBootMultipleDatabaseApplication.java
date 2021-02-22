@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootMultipleDatabaseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMultipleDatabaseApplication.class, args);
+		SpringApplication.run(SpringBootMultipleDatabaseApplication.class, args); 
 	}
 
 }

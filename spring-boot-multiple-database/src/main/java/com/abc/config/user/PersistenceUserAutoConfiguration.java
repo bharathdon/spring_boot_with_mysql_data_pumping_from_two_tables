@@ -34,7 +34,7 @@ public class PersistenceUserAutoConfiguration {
 	@Bean
 	@ConfigurationProperties(prefix = "spring.datasource1")
 	public DataSource userDataSource() {
-
+ 
 		return DataSourceBuilder.create().build();
 	}
 

@@ -33,7 +33,7 @@ public class PersistenceProductAutoConfiguration {
 	@ConfigurationProperties(prefix = "spring.second-datasource")
 	public DataSource productDataSource() {
 
-		return DataSourceBuilder.create().build();
+		return DataSourceBuilder.create().build(); 
 
 	}
 

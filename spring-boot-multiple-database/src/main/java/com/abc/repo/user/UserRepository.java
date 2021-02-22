@@ -7,5 +7,5 @@ import com.abc.entity.user.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
-
+ 
 }
